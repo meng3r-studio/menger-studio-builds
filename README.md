@@ -14,16 +14,8 @@ Descargas de prueba de los juegos de **Menger Studio**. Aquí solo hay ejecutabl
 | Rodamons | `Rodamons-linux-x86_64.tar.gz` | Linux x86_64 | Descomprime y ejecuta `Rodamons/Rodamons.x86_64`. 1-4 jugadores con teclado o mandos. |
 | Narthex | `Narthex-android-prototipo.apk` | Android con ARCore | Prototipo de la code_cam AR y el pasillo. Pide permiso de cámara. |
 
-Créditos de los recursos de terceros: dentro de cada juego y en la web del estudio.
+Web del estudio: https://mengerspong3.github.io/menger-studio/
 
 ---
 
 **English.** Test builds of Menger Studio games. These are unsigned prototypes, offered as is, at your own risk. The Android APK is not from Google Play and needs "install unknown apps".
-
-## Código de la web
-
-La web del estudio (un Artifact de claude.ai) está en `web/`: `index.html` y las imágenes de `img/`. Las carátulas se generan con `tools/caratulas.py` (Pillow), que necesita las fuentes OFL de Google Fonts Bungee, Audiowide, Pixelify Sans, Share Tech Mono y Unbounded en una carpeta:
-
-```bash
-python3 tools/caratulas.py <carpeta_fuentes> web/img
-```
